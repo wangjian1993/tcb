@@ -1,0 +1,654 @@
+/*mod-topbar*/
+.mod-topbar{
+    width: 100%;
+    height: 34px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid lightgray;
+}
+.mod-topbar p{
+    width: 960px;
+    height: 34px;
+    margin: 0 auto;
+    padding: 11px 0;
+    line-height: 8px;
+}
+.mod-topbar p i{
+    font-style: normal;
+    font-size: 14px;
+    color: green;
+    margin-right: -18px;
+   
+}
+
+.mod-topbar p a{
+    padding: 2px 12px 2px 13px;
+    border-right: 1px solid #d2d2d2;
+    font-size: 12px;
+    color: grey;
+}
+.mod-topbar p span{
+	padding: 0 12px 0 13px;
+    border-right: 1px solid #d2d2d2;
+    font-size: 12px;
+    color: grey;
+}
+.mod-topbar p a:hover{
+	color: red;
+}
+.mod-topbar p a:nth-child(3){
+    border-right: none;
+    margin-right: 220px;
+}
+.mod-topbar p a:nth-child(6){
+    border-left: none;
+}
+.mod-topbar p a:last-child{
+	border-right: none;
+	color: red;
+}
+
+
+.mod-topbar p a:nth-child(8){
+	padding-right: 26px;
+	background: url(../img/a_bar.jpg) no-repeat 68px center;
+}
+
+
+/*mod-menu*/
+.mod-menu{
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid green;
+    margin: 0 auto;    
+}
+
+.mod-menu .menu_center{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+
+.mod-menu .title{
+    width: 220px;
+    height: 100px; 
+    float: left; 
+}
+.mod-menu .title h1{
+    width: 219px;
+    height: 57px;
+    background: url(../img/order-logo.jpg) no-repeat 2px center;
+    margin-top: 24px;
+    display: inline-block;
+}
+.mod-menu .title h1 a{
+    display: block;
+    font-size: 0;
+    width: 219px;
+    height: 57px;
+}
+
+.mod-menu .serachBar{
+    width: 580px;
+    height: 82px;
+    
+    float: left;
+    margin-top: 12px;
+    margin-left: 128px;
+    
+}
+
+.mod-menu .serachBar ul li{
+    float: left;
+    line-height: 18px;
+    padding: 2px 5px;
+    margin: 1px 12px;
+    font-size: 10px;
+    border-radius: 5px;
+    color: #333333;
+}
+.mod-menu .serachBar ul li:hover{
+    background: #4bac20;
+    color: white;
+
+}
+.mod-menu .serachBar ul li:first-child{
+    background: #4bac20;
+    color: white;
+}
+
+.serachBar input[type=text]{
+    width: 491px;
+    height: 39px;
+    border: 1px solid #4bac20;
+    text-indent: 3px;
+    font-family: "微软雅黑";
+    margin-top: -30px;
+    margin-left: 10px;
+}
+.serachBar button{
+    width: 60px;
+    height: 39px;
+    color: white;
+    margin-left: -8px;
+    background: #4bac20;
+    cursor: pointer;
+    border: none;
+    margin-top: 0px;
+}
+
+
+/*mod-shopInfo*/
+
+.mod-shopInfo{
+    width: 960px;
+    height: 165px;
+    margin: 12px 203px;
+    border: 1px solid #e9f0f5;
+    background: linear-gradient(to bottom,#f2f7fb,#ffffff);
+    padding: 23px 20px;
+}
+
+.mod-shopInfo .shopIcon{
+	float: left;
+}
+.mod-shopInfo figcaption .Info_center{
+	float: left;
+	margin-left: 28px;
+}
+.Info_center h2{
+	display: inline;
+	font-weight: bold;
+	margin-right: 12px;
+	line-height: 20px;
+}
+.Info_center h2 img{
+	margin-left: 12px;
+	margin-top: -3px;
+}
+.Info_center p:nth-child(2){
+	line-height: 40px;
+}
+.Info_center p:nth-child(2) img{
+	margin-right: 4px;
+}
+.Info_center p:nth-child(2) a{
+	margin-right: 15px;
+	font-size: 14px;
+}
+.Info_center p:nth-child(3){
+	font-size: 12px;
+	color: #666666;
+	line-height: 30px;
+}
+.Info_center p:nth-child(3) span{
+	color: red;
+}
+.Info_center p:nth-child(3) a{
+	color: #2e74d3;
+}
+
+.Info_center p:nth-child(4){
+	font-size: 12px;
+	color: #666666;
+	line-height: 30px;
+}
+.Info_center p:nth-child(4) a{
+	color: #2E74D3;
+	margin-left: 2px;
+}
+
+.mod-shopInfo figcaption .Info_right{
+	float: left;
+	margin-left: 220px;
+	font-size: 12px;
+	text-align: right;
+	color: #666666;
+	line-height: 29px;
+}
+
+.Info_right p:first-child img{
+	margin-left: 6px;	
+}
+
+.Info_right p:nth-child(2) img{
+	margin-top: -3px;
+}
+.Info_right p:nth-child(3) span{
+	color: green;
+	font-weight: bold;
+}
+
+/*mod-banner*/
+.mod-banner{
+	width: 960px;
+    height: 36px;
+    margin: 0 203px 10px 203px;
+    border: 1px solid #e9f0f5;
+    padding: 11px 22px;
+}
+.mod-banner p{
+	font-size: 14px;
+	color: #666666;
+}
+.mod-banner img{
+	margin-right: 3px;
+}
+.mod-banner span{
+	color: red;
+	font-size: 12px;
+	vertical-align: text-top;
+}
+
+/*mod-content*/
+.mod-content{
+	width: 960px;   
+    margin: 0 203px;
+}
+
+.mod-content .mod-fix{
+	width: 960px;
+	height: 1110px;
+}
+.mod-fix .list{
+	width: 763px;
+	height: 1110px;
+	float: left;
+	
+}
+.list .list_search{
+	font-size: 14px;
+	color: #666666;
+}
+.list .list_search ul li{
+	float: left;
+	padding: 14px 11px;
+	margin: 0 16px;
+	font-family: "微软雅黑";
+}
+.list_search ul li:first-child{
+	border-bottom: 2px solid green;
+}
+.list_search ul li:nth-child(5){
+	margin-top: -2px;
+}
+.list_search ul li:nth-child(5) input[type=text]{
+	width: 163px;
+	height: 22px;
+	border-radius: 3px;
+	text-indent: 3px;
+	border: 1px solid #cccccc;
+}
+.list_search ul li:nth-child(5) button{
+	width: 48px;
+	height: 22px;
+	font-size: 12px;
+	margin-left: -1px;
+	background: #f4f4f4;
+	border: none;
+	border: 1px solid #cccccc;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.list .list_menu{
+	width: 761px;
+	height: 40px;
+	background: #f8fff3;
+	font-size: 12px;
+	border: 1px solid #ceddc5;
+}
+.list_menu ul li{
+	float: left;
+	line-height: 40px;
+	margin: 0 10px;
+}
+.list_menu a{
+	color: #2e74d3;
+	display: inline-block;
+	margin-top: -2px;
+}
+
+.list .list_content{
+	width: 760px;
+	height: 961px;
+}
+
+.list_content figure{
+	width: 760px;
+	height: 95px;
+	padding: 10px 0 0 11px;
+	border-bottom: 1px solid #e8e6df;
+}
+
+.list_content figure img{
+	float: left;
+}
+
+
+.list_content figure figcaption .fix_left{
+	float: left;
+	margin-left: 20px;
+	width: 413px;
+	line-height: 30px;
+}
+.fix_left a{
+	font-size: 14px;
+	color: #2e74d3;
+	line-height: 18px;
+}
+.fix_left p{
+	font-size: 12px;
+	color: #999999;
+}
+.list_content figure figcaption .fix_center{
+	float: left;
+	width: 115px;
+	margin-top: 16px;
+}
+.fix_center b{
+	margin-left: 2px;
+	color: #ff9d16;
+}
+.list_content figure figcaption .fix_right{
+	float: left;
+	width: 95px;
+	height: 31px;
+	margin-left: 10px;	
+	margin-top: 12px;
+}
+.fix_right button{
+	width: 95px;
+	height: 31px;
+	background: #ff9d16;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.list .listPage {
+	width: 760px;
+	height: 30px;
+	padding: 6px 0 0 300px;
+	
+}
+.listPage ul li{
+	float: left;
+	padding: 2px 8px;
+	border: 1px solid #d5d7c0;
+	margin: 0 3px;
+	text-align: center;
+}
+
+.listPage li:first-child{
+	border: none;
+	font-weight: bold;
+}
+
+.listPage li:first-child a{
+	color: black;
+}
+
+.listPage a{
+	font-size: 12px;
+	color: #2e74d3;
+}
+
+
+.mod-fix .wxmap{
+	width: 180px;
+	height: 395px;
+	float: right;
+}
+
+.wxmap .wx{
+	width: 180px;
+	height: 180px;
+	padding: 17px 27px 12px 27px;
+}
+.wx p{
+	font-size: 14px;
+	text-align: center;
+	color: #666666;
+	line-height: 32px;
+}
+.wxmap .map{
+	width: 180px;
+	height: 216px;
+	padding-top: 10px;
+}
+.map a{
+	color: #2e74d3;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-left: 66px;
+}
+
+.mod-content .comment{
+	width: 760px;
+	height: 1200px;
+	margin-top: -15px;
+	border: 1px solid #dfdfe1;
+}
+.comment .commentTitle{
+	width: 758px;
+	height: 33px;
+	background: #f7f7f7;
+}
+.commentTitle h2{
+	line-height: 33px;
+	font-weight: bold;
+	text-indent: 10px;
+	border-bottom: 1px solid #dfdfe1;
+}
+
+.comment .commentContent .record_comment{
+	width: 760px;
+	height: 108px;
+	border-bottom: 1px dashed #ebebeb;
+	font-size: 12px;
+}
+
+.commentContent .record_comment:nth-child(19){
+	border-bottom: none;
+}
+
+
+.record_comment .comment_left{
+	float: left;
+	padding: 16px 10px 40px 10px;
+	text-align: center;
+}
+.comment_left p{
+	color: #999999;
+	margin-top: 10px;
+}
+
+.record_comment .comment_center{
+	float: left;
+	width: 470px;
+	height: 108px;
+	padding: 11px 0 26px 0;
+	
+}
+.comment_center span{
+	color: red;
+}
+.comment_center p:first-child{
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+.comment_center p:last-child{
+	color: #999999;
+	margin-top: 8px;
+}
+
+.record_comment .comment_right{
+	float: left;
+	padding: 13px 6px 0 6px;
+	color: #999999;
+	width: 180px;
+	height: 108px;	
+}
+
+.mod-content .comment .commentPage{
+	width: 760px;
+	height: 30px;
+	padding: 6px 0 0 280px;
+}
+.commentPage ul li{
+	float: left;
+	padding: 2px 8px;
+	border: 1px solid #d5d7c0;
+	margin: 0 3px;
+	text-align: center;
+}
+.commentPage li:first-child{
+	border: none;
+	font-weight: bold;
+}
+.commentPage li:first-child a{
+	color: black;
+}
+.commentPage a{
+	font-size: 12px;
+	color: #2e74d3;
+}
+
+
+.mod-content .shopMore{
+	width: 760px;
+	height: 210px;
+	margin: 12px 0;
+	border:1px solid #dfdfe1;
+}
+
+.shopMore .tableMore{
+	width: 758px;
+	height: 208px;
+}
+.tableMore tr:first-child{
+	background: #f7f7f7;
+}
+.tableMore tr:first-child th{
+	border-bottom:1px solid #dfdfe1;
+}
+
+
+.tableMore tr:first-child th:first-child{
+	text-indent: 10px;
+	font-weight: bold;
+}
+.tableMore tr td:first-child{
+	padding-top: 7px;
+	padding-right: 10px;
+	font-size: 12px;
+	color: black;
+	text-align: right;
+	background: #ededed;
+	border-bottom: 2px solid white;
+}
+
+.tableMore tr:last-child td:first-child{
+	border: none;
+}
+
+.tableMore tr td:nth-child(2){
+	background: #fcfcfc;
+	font-size: 12px;
+	text-indent: 10px;
+	color: #999999;
+	padding-top: 7px;
+}
+.tableMore tr td:nth-child(2) i{
+	font-style: normal;
+	padding: 2px 10px;
+	background: #f5ffeb;
+	color: green;
+	border: 1px solid #badd98;
+}
+
+.tableMore tr td:nth-child(2) a{
+	color: blue;
+}
+.tableMore tr td:nth-child(2) span{
+	color: red;
+}
+
+.mod-content .shopSafe{
+	width: 760px;
+	height: 490px;
+	border: 1px solid #dfdfe1;
+}
+.shopSafe h2{
+	width: 758px;
+	height: 38px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #dfdfe1;
+	line-height: 38px;
+	font-weight: bold;
+	text-indent: 10px;
+}
+
+.shopSafe .shop_Pay{
+	width: 790px;
+	height: 450px;
+	padding: 20px 50px;
+}
+
+
+/*mod-footer*/
+.mod-footer{
+	width: 100%;
+	height: 300px;
+	background: #fafafa;
+	margin-top: 20px;
+	padding-top: 22px;
+	padding-left: 150px;
+	
+}
+
+.mod-footer .address{
+	width: 960px;
+	height: 140px;
+	
+	border-bottom: 1px solid gainsboro;
+}
+.address figure{
+	float: left;
+	margin-right: 70px;
+}
+.address figure img{
+	float: left;
+}
+.address figure figcaption{
+	float: left;
+	margin-left: 10px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #666666;
+}
+.address figure figcaption span{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.address figure figcaption i{
+	font-style: normal;
+	color: dodgerblue;
+}
+.address figure a:hover{
+	text-decoration: underline;
+}
+.mod-footer .contact_us {
+	text-align: center;
+	font-size: 12px;
+	color: #666666;
+	line-height: 24px;
+	margin: 30px 0 0 -300px;
+}
+
+
+

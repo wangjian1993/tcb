@@ -1,0 +1,247 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+#hend_img{
+    width: 100%;
+    height: 355px;
+    overflow: hidden;
+}
+#hend_img img{
+    width: 100%;
+    height: 355px;
+}
+.phone_content{
+    width: 100%;
+    height: 1313px;
+}
+/*故障选择*/
+.fault{
+    width: 100%;
+    height: 308px;
+    margin-top: 20px;
+}
+.fault h2{
+    height: 30px;
+    text-align: center;
+    margin: 20px 0;
+}
+.fault_nav{
+    width: 1170px;
+    height: 162px;
+    margin:  0 auto;
+    background: #fff;
+}
+.nav1{
+    width: 130px;
+    height: 162px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.nav1 p{
+    margin-top: 10px;
+    color: #666;
+}
+.nav1 img{
+    width: 94px;
+    height: 94px;
+}
+/*故障内容*/
+.fault_btn{
+    width: 100%;
+    height: 146px;
+    background: #f4f4f4;
+    overflow: hidden;
+    float: left;
+}
+.btn{
+    width: 1100px;
+    height: 146px;
+    margin: 0 auto;
+    line-height: 146px;
+    text-align: left;
+
+}
+.btn button{
+    margin-left: 20px;
+    width: 195px;
+    height: 45px;
+    display: inline-block;
+    background: #fff;
+    border: 1px #6b6b6b;
+    color: #666;
+    font-size: 16px;
+    font-family: "黑体";
+    cursor: pointer;
+}
+/*上门服务很快捷*/
+.visit{
+    width: 100%;
+    height: 380px;
+    background: #f4f4f4;
+    text-align: center;
+    float: left;
+    border-bottom: 1px #e9e9e9 solid;
+}
+.visit h2{
+    height: 30px;
+    margin-top: 40px;
+}
+.visit_img {
+    width: 1000px;
+    height: 332px;
+    margin: 20px auto 0;
+    line-height: 332px;
+}
+.visit_left{
+    width: 80px;
+    height: 250px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    line-height: 250px;
+    cursor: pointer;
+}
+.visit_left:hover{
+    background: #ffffff;
+}
+.visit_content{
+    width: 835px;
+    height: 332px;
+    float: left;
+    overflow: hidden;
+}
+.visit_content p{
+    width: 185px;
+    height: 246px;
+    display: inline-block;
+    margin: 0 5px;
+    box-shadow: 0 0 3px 5px #e9e9e9;
+}
+.visit_content img{
+    width: 185px;
+    height: 246px;
+}
+.visit_right{
+    width: 80px;
+    height: 250px;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+    line-height: 250px;
+    cursor: pointer;
+}
+.visit_right:hover{
+    background: #ffffff;
+}
+.tu{
+    width: 100%;
+    height: 220px;
+    float: left;
+    text-align: center;
+}
+.tu img{
+    width: 1100px;
+    height: 220px;
+}
+.tu2{
+    width: 100%;
+    height: 220px;
+    float: left;
+}
+.tu2 img{
+    height: 355px;
+    width: 100%;
+}
+
+/*底部*/
+.button1{
+    width: 100%;
+    height: 300px;
+    background:#494E51;
+    float: left;
+}
+.button1_nav_box{
+    width: 980px;
+    height: 155px;
+    margin: 0 auto;
+    background:#494E51;
+}
+.button1_nav{
+    width: 150px;
+    height: 125px;
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.button1_nav_img{
+    float: left;
+    width: 43px;
+    height: 125px;
+}
+.button1_nav img {
+    width: 43px;
+    height: 43px;
+}
+.button1_nav p{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button1_nav a{
+    color: #fff;
+    font-size: 12px;
+    font-family: "微软雅黑","宋体";
+}
+h4{
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    height: 20px;
+}
+.button1_nav2{
+    width: 150px;
+    height: 125px;
+    margin-left: 45px;
+    margin-top: 15px;
+    font-size: 16px;
+    float: left;
+}
+.button1_nav2 img{
+    width: 43px;
+    height: 43px;
+}
+.button1_nav2 p{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.button1_nav2 a{
+    color: #fff;
+    font-size: 12px;
+    font-family: "微软雅黑 ";
+}
+#t a{
+    text-decoration: underline;
+    color: #239bf8;
+}
+.site{
+    width: 100%;
+    height: 140px;
+    margin: 30px auto 0;
+    text-align: center;
+    background: #242C31;
+}
+.site p{
+    display: inline-block;
+    margin-top: 10px;
+    width: 700px;
+    font-size: 14px;
+    color: #888;
+}
+.site a{
+    font-size: 14px;
+    color: #fff;
+}
